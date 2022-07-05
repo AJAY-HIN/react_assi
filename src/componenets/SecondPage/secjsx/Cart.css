@@ -1,0 +1,20 @@
+.cartBox {
+  margin-top: 12px;
+  position: absolute;
+  left: 60em;
+}
+
+#cartH {
+  color: rgb(148, 145, 145);
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.cartBox > p {
+  font-size: medium;
+  padding-top: 15px;
+  border-style: none;
+  width: 230px;
+  text-align: justify;
+  color: rgb(197, 194, 194);
+}

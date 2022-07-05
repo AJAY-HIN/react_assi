@@ -1,0 +1,222 @@
+/* 
+
+.searchBox{
+  display: flex;
+  align-items: center; 
+  
+}
+
+
+
+.searchNav{
+  position: relative;
+  left:21em;
+  top:-1.6em;
+  
+}
+
+nav{
+  padding-top: 1em;
+  padding-left: 1em;
+  font-size: medium;
+  font-weight: 500;
+} 
+
+input{
+  border-style: none;
+  color: rgb(141, 143, 145);
+  padding:12px 55px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ border-radius: 2px;
+}
+
+
+.bi-search {
+  position: relative;
+  left:1.5em;
+  top:0.2em;
+  font-weight: bolder;
+}
+
+.searchBox>button{
+  display: flex;
+  margin-left: 25px;
+  padding: 12px;
+  padding-right: 33px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-style: none;
+}
+
+
+.orderItem{
+  line-height: 2em;
+  position: relative;
+  margin-right: 6em;
+  margin-top: 70px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(243, 241, 241);
+}
+
+
+.allData{
+  color: rgb(75, 73, 73);
+}
+
+.dishName{
+  margin-right: 19em;
+  text-align: left;
+}
+
+
+#itemCount{
+  font-size: small;
+  font-weight: 400;
+  color: rgb(89, 90, 90);
+  margin-right: 19em;
+  text-align: left;
+}
+
+.borderhr{
+padding-top: 25px;
+border-bottom: 2px solid black;
+}
+
+.dishName>p{
+color: rgb(160, 162, 163);
+}
+
+
+
+.foodig{
+width: 9.5vw;
+height: 14vh;
+aspect-ratio: 1/1;
+border-radius: 6px;
+position: absolute;
+left: 25em;
+top:0.4em;
+}
+
+.myImage>button{
+position: absolute;
+left: 31.2em;
+top:6.5em;
+padding: 10px 33px;
+color: rgb(16, 163, 16, 0.6);
+border-radius: 3px;
+border:1px solid rgb(216, 214, 214);
+background-color: white;
+}
+
+.myImage>button:hover{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.scrollFood{
+    height: 700px;
+    overflow: scroll;
+    margin-left: 22em;
+    box-sizing: content-box;
+}
+ */
+
+ /* .itemCount{
+   width:110px;
+   height: 50px;
+   margin-top: 20px;
+   
+ } */
+
+ .scrollFood{
+   overflow: scroll;
+   height: 500px;
+   width: 98vw;
+   position: sticky;
+   top:280px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .foodig{
+  width: 9.5vw;
+  height: 14vh;
+  aspect-ratio: 1/1;
+  border-radius: 6px;
+  }
+  
+  .myImage>button{
+  color: rgb(16, 163, 16, 0.6);
+  border-radius: 3px;
+  border:1px solid rgb(216, 214, 214);
+  background-color: white;
+  padding: 10px 33px;
+  background-color: white;
+  position: absolute;
+  bottom:2.5em;
+  left: 1em;
+  }
+
+  .myImage{
+    position: relative;
+    width: 140px;
+  }
+
+  .orderItem{
+    line-height: 2em;
+    border-bottom: 1px solid rgb(243, 241, 241);
+    padding-top: 3em;
+    padding-bottom: 3em;
+    }
+
+  .allData{
+    display: flex;
+   
+  }
+
+  .borderhr{
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+  }
+
+  .dishName{
+    width: 430px;
+  }
+
+  /* .otuFood{
+    position: relative;
+  }
+   */
+
+
+
+.type{
+  position: sticky;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  left: 17em;
+  transition: all ease 0.7s;
+  top:280px;
+  line-height: 2em;
+  width: 1px;
+  padding-right: 10px;
+  padding-top: 30px;
+  border-right: 1px solid rgb(202, 202, 202);
+}
+
+#typeOfFood{
+  text-decoration: none;
+  direction: rtl;
+  color: black;
+
+}
+
+#typeOfFood:hover{
+  color: rgb(255, 145, 0);
+}
+
+#typeOfFood:active{
+  color: rgb(255, 145, 0);
+}

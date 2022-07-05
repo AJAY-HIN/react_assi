@@ -1,0 +1,166 @@
+
+
+*, .secBack{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  max-width: 100vw;
+}
+
+
+/* .secBack{
+  top:0;
+ 
+} */
+
+.bGround{
+  background-color: #171a29;  width: 100vw;;
+  min-height: 250px;
+  color: white;
+  max-height: 30vh;
+  position: sticky;
+  font-weight: 300;
+  top:0;
+  z-index: 2;
+}
+
+h6{
+  color: rgb(155, 157, 158);
+}
+
+.ratings > h5{
+  color: rgb(155, 157, 158);
+  font-weight: 300;
+}
+
+.dataImg>img{
+  width: 20vw;
+  aspect-ratio: 4/2.6;
+}
+
+.dataImg{
+ position: absolute;
+ top:16%;
+ left: 3%;
+}
+
+.ratings{
+  position: absolute;
+  left:28%;
+  top:22%;
+  line-height: 2rem;
+  font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.ratecosttime{
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.2rem;
+  padding-top: 1rem;
+}
+
+.ctr{
+  border-right: 1px solid grey;
+  padding-right: 15px;
+}
+
+.ctr2, .ctr3{
+  padding-left: 28px;
+}
+
+.ctr3{
+  border-right: none;
+}
+
+.offers{
+  position: absolute;
+  right:3em;
+  top:3.3em;
+  width:22%;
+}
+
+
+fieldset{
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 1em;
+
+}
+
+legend{
+  border-style: none;
+  padding:10px;
+  margin-left: -2.7rem;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+
+.giveFlex
+{
+  display: flex;
+  position: absolute;
+}
+
+.section{
+  background-color: rgb(204, 202, 202);
+  color: white;
+  padding:7px;
+  padding-left: 3em;
+  font-size: small;
+  
+}
+
+
+
+.searchBox{
+  display: flex;
+  align-items: center; 
+  
+}
+
+
+
+.searchNav{
+  position: relative;
+  top:-1.6em;
+  right: 2em;
+  display: flex;
+  justify-content: center;
+  z-index: 4;
+}
+
+nav{
+  padding-top: 1em;
+  padding-left: 1em;
+  font-size: medium;
+  font-weight: 500;
+} 
+
+input{
+  border-style: none;
+  color: rgb(141, 143, 145);
+  padding:12px 55px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ border-radius: 2px;
+}
+
+
+.bi-search {
+  position: relative;
+  left:1.5em;
+  top:0.2em;
+  font-weight: bolder;
+}
+
+.searchBox>button{
+  display: flex;
+  margin-left: 32px;
+  padding: 12px;
+  padding-right: 40px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-style: none;
+}
+
+  

@@ -1,0 +1,65 @@
+
+.orderItem{
+  line-height: 2em;
+  position: relative;
+  left: 1em; 
+  margin-top: 70px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(243, 241, 241);
+}
+
+/* .scrollFood{
+  box-sizing: border-box;
+  overflow-y: scroll;
+  height: 600px;
+} */
+
+.allData{
+  position: relative;
+  color: rgb(75, 73, 73);
+}
+
+#itemCount{
+    position: absolute;
+    left:1em;
+    top:-5em;
+    font-size: small;
+    font-weight: 400;
+    color: rgb(89, 90, 90);
+}
+
+.borderhr{
+  position: relative;
+  left:13em;
+  border-bottom: 2px solid black;
+}
+
+.dishName>p{
+  color: rgb(160, 162, 163);
+}
+
+
+.foodig{
+  width: 9.5vw;
+  height: 14vh;
+  aspect-ratio: 1/1;
+  border-radius: 6px;
+  position: absolute;
+  left: 25em;
+  top:0.4em;
+}
+
+.myImage>button{
+  position: absolute;
+  left: 31.2em;
+  top:6.5em;
+  padding: 10px 33px;
+  color: rgb(16, 163, 16, 0.6);
+  border-radius: 3px;
+  border:1px solid rgb(216, 214, 214);
+  background-color: white;
+}
+
+.myImage>button:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}

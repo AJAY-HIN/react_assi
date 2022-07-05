@@ -1,0 +1,66 @@
+
+
+
+
+ div.scrollmenu {
+  background-color: white;
+  overflow: auto;   
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  padding: 14px;
+  padding-left: -10px;
+  position: sticky;
+  z-index: 0;
+  top:0;
+  border-bottom: 1px solid rgb(217, 215, 215);
+  
+}
+
+h1.h1Counts{
+  color: rgb(73, 73, 73);
+}
+
+
+.secNavList {
+  position: relative;
+  font-size: 16px;
+  font-weight: 100;
+  left: 23em;
+  top:14px
+}
+
+.h1Counts{
+position: absolute;
+left: 1.3em;
+bottom: 0.3em;
+}
+
+
+
+div.scrollmenu a {
+  display: inline-block;
+  color: rgb(117, 112, 112);
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+div.secNavList .secNavSearch {
+color: black;
+font-weight: 600;
+visibility: hidden;
+
+}
+
+
+@media screen and (max-width:1100px) {
+   
+
+    div.scrollmennu a{
+      position: relative;
+      left: 0;
+    }
+}
+
+
